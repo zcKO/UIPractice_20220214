@@ -38,14 +38,24 @@
         android:imeOptions="actionSearch"
         android:singleLine="true" />
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="이용 약관 동의합니다." />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인정보 이용에 동의합니다." />
+
     <!-- textAllCaps : 모든 텍스트가 대문자인지 체크
          text 속성에서 영어는 모두 대문자 나온다. 소문자를 나타내기 위한 속성 -->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="sign up"
-        android:textAllCaps="false"/>
-
+        android:textAllCaps="false" />
 
 
 </LinearLayout>
